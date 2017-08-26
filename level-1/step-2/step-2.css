@@ -1,32 +1,56 @@
-/* Step-2 You can assign padding to all sides of a container by using the padding property. */
-
-.content-left {
- 
-}
-
 /* Step 2 You can assign padding to all sides of a container by using the padding property. */
 
-.header {
-  
+.content-left {
+  padding: 30px;
 }
 
+.header {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
 /* Step-2 One option to get the container to fill the parent container is to use width: auto; */
 
 .profile-image-container {
+    display: flex;
+    width: 100%;
+    height: 30%;
     background: #96F0F2;
+    align-items: center;
+    margin-bottom: 30px;
+    /*border: 1px solid red;*/
 }
 
 /* Step-2 One option to get the container to fill the parent container is to use width: auto; */
 
 .profile-links-container {
+    display: flex;
+    width: 100%;
+    height: 65%;
     background: #12F3F7;
+    padding-bottom: 100px;
+    align-items: center;
+    /*border: 1px solid red;*/
 }
 
 /* Step-2 You can either use float left or position absolute to get this element to in the desired location. */
 
 .logo-container {
+    display: flex;
     background: #4F4949;
+    width: 300px;
+    height: 100%;
+    margin-left: 10px;
+    align-items: center;
+    /*border: 1px solid red;*/
 }
 
 
@@ -34,7 +58,17 @@
 
 .menu-container {
     background: #4F4949;
+    /*padding: 20px;*/
+    width: 50px;
+    height: 100%;
+    /*border: 1px solid red;*/
 }
 
-
-
+.footer {
+  background: #D8D8D8;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
