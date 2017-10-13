@@ -26,7 +26,7 @@
     background: #96F0F2;
     align-items: center;
     margin-bottom: 30px;
-    /*border: 1px solid red;*/
+    border: 1px solid blue;
 }
 
 /* Step-2 One option to get the container to fill the parent container is to use width: auto; */
